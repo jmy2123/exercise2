@@ -3,6 +3,6 @@ node_js:
   - "node"
   - "8.6.0"
 before_install: 
-  - npm install mocha -g
+  - npm install mocha@5.2.0 -g
 install: npm install
-script:  cd test && npm test
+script: npm test
